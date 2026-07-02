@@ -19,21 +19,24 @@ public class OnlineOrder {
     // Checking out.
     // Order confirmed.
     public static void processOrder() {
-        // Your code here
+        System.out.println("Processing order...");
+        addItems();
+        checkout();
+        confirmOrder();
     }
 
     // TODO: Print exactly: Adding items to cart.
     public static void addItems() {
-        // Your code here
+        System.out.println("Adding items to cart");
     }
 
     // TODO: Print exactly: Checking out.
     public static void checkout() {
-        // Your code here
+        System.out.println("Checking out");
     }
 
     // TODO: Print exactly: Order confirmed.
     public static void confirmOrder() {
-        // Your code here
+        System.out.println("Order confirmed");
     }
 }

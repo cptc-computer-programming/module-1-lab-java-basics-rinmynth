@@ -8,4 +8,9 @@ public class Messages {
     public static final String GOAL = "Goal scored!";
     public static final String HALFTIME = "Halftime.";
     public static final String FULLTIME = "Full time.";
+
+
+    public static void main(String[] args) {
+        System.out.println(TITLE);
+    }
 }
